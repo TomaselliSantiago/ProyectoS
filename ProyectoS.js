@@ -8,17 +8,6 @@ if (user == ""){
 alert ("Bienvenido "+user,"")
 }
 
-// function cotizarDolar(pesos){
-// let cotizacionDolares = pesos/DOLAR_COMPRA
-// return cotizacionDolares;
-// }
-
-
-// if(opcion == "1" ){
-//     let cantiPesos = parseFloat(prompt("ingresa la cantidad de pesos"))
-//     let cotizacionD = cotizarDolar(cantiPesos);
-//     alert ("Ingresando $"+cantiPesos+", te quedan U$S "+cotizacionD);
-
 const IVA = 1.21
 
 function calcularIva (precioRopa){
